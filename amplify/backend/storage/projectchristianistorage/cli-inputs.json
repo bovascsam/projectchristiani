@@ -1,0 +1,14 @@
+{
+  "resourceName": "projectchristianistorage",
+  "policyUUID": "3faf07f2",
+  "bucketName": "projectchristianid9787cfd0d8046dbb0afcabb8cd241",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}

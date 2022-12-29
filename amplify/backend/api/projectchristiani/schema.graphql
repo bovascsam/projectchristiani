@@ -1,0 +1,34 @@
+type Categories @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  name: String!
+  displayname: String
+  type: CategoryType!
+}
+type Media @model @auth(rules: [{allow: public}]){
+  id:ID!
+  Title:String!
+  Description:String
+  Thumbnail:AWSURL
+  Video:AWSURL
+  Category:String!
+  Language:String
+}
+type Language @model @auth(rules: [{allow: public}]){
+    id:ID!
+    name:String!
+}
+
+enum CategoryType {
+  Media
+  Language
+  Categories
+  News
+  Churches
+  Pastors
+  Matrimonials
+  Women
+  Students
+  Youth
+  Users
+}
+ 

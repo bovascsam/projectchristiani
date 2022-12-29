@@ -1,0 +1,6 @@
+{
+  "AppSyncApiName": "projectchristiani",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthModeLastUpdated": "2022-12-03T15:07:59.310Z"
+}

@@ -9,11 +9,19 @@
       "UnauthRoleName": "amplify-amplifya30048b3a9e64-staging-102443-unauthRole",
       "StackName": "amplify-amplifya30048b3a9e64-staging-102443",
       "StackId": "arn:aws:cloudformation:ap-south-1:085190467230:stack/amplify-amplifya30048b3a9e64-staging-102443/b42b0ba0-72f4-11ed-82d5-0684ee98143c",
-      "AmplifyAppId": "d21jpwxvldgg1j"
+      "AmplifyAppId": "d21jpwxvldgg1j",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-amplifya30048b3a9e64-staging-102443-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
     },
     "categories": {
       "auth": {
-        "projectchristiani5012dbad": {}
+        "projectchristiani54b13cba": {}
+      },
+      "storage": {
+        "Categories": {},
+        "projectchristianistorage": {}
+      },
+      "api": {
+        "projectchristiani": {}
       }
     }
   }
